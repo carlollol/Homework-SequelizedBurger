@@ -3,10 +3,13 @@ var bodyParser         = require("body-parser");
 var methodOverride     = require("method-override");
 var config             = require("./config/extra-config");
 
+
 // Sets up the Express App
 // =============================================================
 var app = express();
 var PORT = process.env.PORT || 3000;
+var path = require ('path');
+app.use(express.static("public"));
 
 // Requiring our models for syncing
 var db = require("./models");
