@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function(sequelize, DataTypes) {
   var Burger = sequelize.define("Burger", {
     // Giving the Author model a name of type STRING

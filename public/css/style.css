@@ -1,11 +1,33 @@
 body {
   width: 99%;
   height: 900px;
-  background-color: #fc6;
+  background-color: #14c1f4;
 }
 
 #top-bar {
   margin-top: 28px;
+}
+
+.jumbotron {
+  background-image: url("../public/images/galdinquay.png");
+  background-repeat: no-repeat;;
+}
+
+.burge {
+  text-align: center;
+}
+
+#cacti {
+  position: fixed;
+  height: auto;
+  top: 450px;
+  left: 900px;
+  margin: 165px;
+}
+
+.headtitle {
+  font-weight: 600;
+  font-size: 45px;
 }
 
 .spacing-reset {
@@ -48,11 +70,11 @@ body {
   font-size: 38px;
 }
 
-.task {
+/*.menus {
   border-color: black;
   border-style: solid;
   border-width: 3px;
-}
+}*/
 
 .button-size {
   padding-bottom: 20px;

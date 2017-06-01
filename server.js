@@ -45,9 +45,10 @@ app.use(function(err, req, res, next) {
   })
 });
 
+
 // Syncing our sequelize models and then starting our express app
 db.sequelize.sync({
-	
+  
 }).then(function() {
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
